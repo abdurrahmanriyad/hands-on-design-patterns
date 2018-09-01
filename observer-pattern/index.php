@@ -59,7 +59,7 @@ class WeatherData implements Subject
         $this->notifyObservers();
     }
 
-    public function serMeasurements($temperature, $humidity, $pressure)
+    public function setMeasurements($temperature, $humidity, $pressure)
     {
         $this->temperature = $temperature;
         $this->humidity = $humidity;
@@ -102,6 +102,6 @@ $weatherData = new WeatherData();
 
 $currentConditionsDisplay = new CurrentConditionsDisplay($weatherData);
 
-$weatherData->serMeasurements(80, 65, 30.4);
-$weatherData->serMeasurements(12, 15, 80.4);
-$weatherData->serMeasurements(83, 75, 55.4);
+$weatherData->setMeasurements(80, 65, 30.4);
+$weatherData->setMeasurements(12, 15, 80.4);
+$weatherData->setMeasurements(83, 75, 55.4);
