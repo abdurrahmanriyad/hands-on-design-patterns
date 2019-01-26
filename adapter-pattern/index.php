@@ -89,3 +89,63 @@ $audioPlayer->play('audio');
 $audioPlayer->play('mp4');
 $audioPlayer->play('vlc');
 
+
+// another example of adapter pattern
+class Paypal{
+    public function sendPayments($amount)
+    {
+        echo "Payment via paypal " . '$' .$amount;
+    }
+}
+
+interface PaymentAdapter {
+    public function pay($amount);
+}
+
+class PaypalAdapter implements PaymentAdapter {
+    private $paypal;
+
+    public function __construct(PayPal $paypal) {
+        $this->paypal = $paypal;
+    }
+
+    public function pay($amount)
+    {
+        $this->paypal->sendPayment($amount);
+    }
+}
+
+$payment = new Paypal();
+$payment->sendPayments(30);
+
+
+// add moneybooker
+class MoneyBooker {
+
+    public function __construct() {
+        // Your Code here //
+    }
+
+    public function doPayment($amount) {
+        // Paying via MoneyBooker //
+        echo "<br>Paying via MoneyBooker: ".  $amount;
+    }
+}
+
+// MoneyBooker Adapter
+class moneybookerAdapter implements paymentAdapter {
+
+    private $moneybooker;
+
+    public function __construct(MoneyBooker $moneybooker) {
+        $this->moneybooker = $moneybooker;
+    }
+
+    public function pay($amount) {
+        $this->moneybooker->doPayment($amount);
+    }
+}
+
+// Client Code
+$moneybooker = new moneybookerAdapter(new MoneyBooker());
+$moneybooker->pay('2629');
