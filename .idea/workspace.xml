@@ -16,8 +16,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chain-of-responsibility/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="196">
+              <caret line="42" column="39" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -165,16 +165,15 @@
       <workItem from="1545587222087" duration="414000" />
       <workItem from="1547313538433" duration="1679000" />
       <workItem from="1548471581899" duration="1917000" />
-      <workItem from="1553923630659" duration="952000" />
+      <workItem from="1553923630659" duration="1231000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18923000" />
+    <option name="totallyTimeSpent" value="19202000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="23" width="1880" height="1057" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -531,8 +530,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chain-of-responsibility/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="196">
+          <caret line="42" column="39" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="39" />
         </state>
       </provider>
     </entry>
