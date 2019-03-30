@@ -6,11 +6,11 @@ You are always welcome to contribute if you have anything better than here to sh
 
 
 ## List of design patterns
-* [Adapter Pattern](https://www.google.com)
-* [Chain Of Responsibility](https://www.google.com)
-* [Decorator Pattern](https://www.google.com)
-* [Facade Pattern](https://www.google.com)
-* [Factory Pattern](https://www.google.com)
-* [Observer Pattern](https://www.google.com)
-* [Singleton Pattern](https://www.google.com)
-* [Strategy Pattern](https://www.google.com)
+* [Adapter Pattern](../../tree/master/adapter-pattern)
+* [Chain Of Responsibility](../../tree/master/chain-of-responsibility)
+* [Decorator Pattern](../../tree/master/decorator-pattern)
+* [Facade Pattern](../../tree/master/facade-pattern)
+* [Factory Pattern](../../tree/master/factory-pattern)
+* [Observer Pattern](../../tree/master/observer-pattern)
+* [Singleton Pattern](../../tree/master/singleton-pattern)
+* [Strategy Pattern](../../tree/master/strategy-pattern)
