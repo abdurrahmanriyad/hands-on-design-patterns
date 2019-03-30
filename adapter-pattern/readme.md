@@ -1,3 +1,8 @@
+## Adapter Patter
+The adapter pattern convert the interface of a class into another interface clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces. Class Diagram: The client sees only the target interface and not the adapter.
+
+##Code Example
+
 ```php
 <?php
 
